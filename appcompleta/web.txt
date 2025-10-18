@@ -1,0 +1,261 @@
+[
+    {
+        "Id": "ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c",
+        "Created": "2025-10-18T16:33:46.832612555Z",
+        "Path": "uvicorn",
+        "Args": [
+            "main:app",
+            "--host",
+            "0.0.0.0",
+            "--reload"
+        ],
+        "State": {
+            "Status": "running",
+            "Running": true,
+            "Paused": false,
+            "Restarting": false,
+            "OOMKilled": false,
+            "Dead": false,
+            "Pid": 14777,
+            "ExitCode": 0,
+            "Error": "",
+            "StartedAt": "2025-10-18T16:33:46.892960083Z",
+            "FinishedAt": "0001-01-01T00:00:00Z"
+        },
+        "Image": "sha256:91c9d0dc021f7c6c4d9fe73066046b6e9e21a6289cf65d69c4d28e13d00e1b55",
+        "ResolvConfPath": "/var/lib/docker/containers/ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c/resolv.conf",
+        "HostnamePath": "/var/lib/docker/containers/ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c/hostname",
+        "HostsPath": "/var/lib/docker/containers/ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c/hosts",
+        "LogPath": "/var/lib/docker/containers/ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c/ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c-json.log",
+        "Name": "/appcompleta-web-1",
+        "RestartCount": 0,
+        "Driver": "overlay2",
+        "Platform": "linux",
+        "MountLabel": "",
+        "ProcessLabel": "",
+        "AppArmorProfile": "docker-default",
+        "ExecIDs": null,
+        "HostConfig": {
+            "Binds": [
+                "/workspaces/AulasCN/appcompleta/app:/app:rw"
+            ],
+            "ContainerIDFile": "",
+            "LogConfig": {
+                "Type": "json-file",
+                "Config": {}
+            },
+            "NetworkMode": "appcompleta_rede_privada",
+            "PortBindings": {
+                "8000/tcp": [
+                    {
+                        "HostIp": "",
+                        "HostPort": "8000"
+                    }
+                ]
+            },
+            "RestartPolicy": {
+                "Name": "no",
+                "MaximumRetryCount": 0
+            },
+            "AutoRemove": false,
+            "VolumeDriver": "",
+            "VolumesFrom": null,
+            "ConsoleSize": [
+                0,
+                0
+            ],
+            "CapAdd": null,
+            "CapDrop": null,
+            "CgroupnsMode": "private",
+            "Dns": null,
+            "DnsOptions": null,
+            "DnsSearch": null,
+            "ExtraHosts": [],
+            "GroupAdd": null,
+            "IpcMode": "private",
+            "Cgroup": "",
+            "Links": null,
+            "OomScoreAdj": 0,
+            "PidMode": "",
+            "Privileged": false,
+            "PublishAllPorts": false,
+            "ReadonlyRootfs": false,
+            "SecurityOpt": null,
+            "UTSMode": "",
+            "UsernsMode": "",
+            "ShmSize": 67108864,
+            "Runtime": "runc",
+            "Isolation": "",
+            "CpuShares": 0,
+            "Memory": 0,
+            "NanoCpus": 0,
+            "CgroupParent": "",
+            "BlkioWeight": 0,
+            "BlkioWeightDevice": null,
+            "BlkioDeviceReadBps": null,
+            "BlkioDeviceWriteBps": null,
+            "BlkioDeviceReadIOps": null,
+            "BlkioDeviceWriteIOps": null,
+            "CpuPeriod": 0,
+            "CpuQuota": 0,
+            "CpuRealtimePeriod": 0,
+            "CpuRealtimeRuntime": 0,
+            "CpusetCpus": "",
+            "CpusetMems": "",
+            "Devices": null,
+            "DeviceCgroupRules": null,
+            "DeviceRequests": null,
+            "MemoryReservation": 0,
+            "MemorySwap": 0,
+            "MemorySwappiness": null,
+            "OomKillDisable": null,
+            "PidsLimit": null,
+            "Ulimits": null,
+            "CpuCount": 0,
+            "CpuPercent": 0,
+            "IOMaximumIOps": 0,
+            "IOMaximumBandwidth": 0,
+            "MaskedPaths": [
+                "/proc/asound",
+                "/proc/acpi",
+                "/proc/interrupts",
+                "/proc/kcore",
+                "/proc/keys",
+                "/proc/latency_stats",
+                "/proc/timer_list",
+                "/proc/timer_stats",
+                "/proc/sched_debug",
+                "/proc/scsi",
+                "/sys/firmware",
+                "/sys/devices/virtual/powercap"
+            ],
+            "ReadonlyPaths": [
+                "/proc/bus",
+                "/proc/fs",
+                "/proc/irq",
+                "/proc/sys",
+                "/proc/sysrq-trigger"
+            ]
+        },
+        "GraphDriver": {
+            "Data": {
+                "ID": "ff862c321fb7762f7a24831a1aa7340af1d60741c737cb9dab0724d79e2a113c",
+                "LowerDir": "/var/lib/docker/overlay2/f87757e98c87678f30ad4ecc725abc20b984f990d29c0057da57bb1fa8afd0d4-init/diff:/var/lib/docker/overlay2/fxs2yqc5rxaq08st5eex8lzje/diff:/var/lib/docker/overlay2/z2pgpdkmp1p0u5jr5qzoedrfm/diff:/var/lib/docker/overlay2/qkvbeiw28fc7mj6iu952ij5c8/diff:/var/lib/docker/overlay2/dr8ts7rsv3dmxm2gf82g671og/diff:/var/lib/docker/overlay2/f191f8c3189b739f7a6a8635c8fdd93e571eb663ee2f743c7cae82c54a3c7ff6/diff:/var/lib/docker/overlay2/cbe0ecd1c9352a1493fd5171b8581ef5c07280a3da9b7fffd317b1b36b3dbfd3/diff:/var/lib/docker/overlay2/1cd5677168d533f8b0a8a3e099f72f523dfad7a93da72825404f9ce11730b469/diff:/var/lib/docker/overlay2/3424466bf4d268905951c3af28c92bb88e34497b8887b32ebb461c26f2bf83ee/diff",
+                "MergedDir": "/var/lib/docker/overlay2/f87757e98c87678f30ad4ecc725abc20b984f990d29c0057da57bb1fa8afd0d4/merged",
+                "UpperDir": "/var/lib/docker/overlay2/f87757e98c87678f30ad4ecc725abc20b984f990d29c0057da57bb1fa8afd0d4/diff",
+                "WorkDir": "/var/lib/docker/overlay2/f87757e98c87678f30ad4ecc725abc20b984f990d29c0057da57bb1fa8afd0d4/work"
+            },
+            "Name": "overlay2"
+        },
+        "Mounts": [
+            {
+                "Type": "bind",
+                "Source": "/workspaces/AulasCN/appcompleta/app",
+                "Destination": "/app",
+                "Mode": "rw",
+                "RW": true,
+                "Propagation": "rprivate"
+            }
+        ],
+        "Config": {
+            "Hostname": "ff862c321fb7",
+            "Domainname": "",
+            "User": "",
+            "AttachStdin": false,
+            "AttachStdout": true,
+            "AttachStderr": true,
+            "ExposedPorts": {
+                "8000/tcp": {}
+            },
+            "Tty": false,
+            "OpenStdin": false,
+            "StdinOnce": false,
+            "Env": [
+                "PATH=/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+                "LANG=C.UTF-8",
+                "GPG_KEY=E3FF2839C048B25C084DEBE9B26995E310250568",
+                "PYTHON_VERSION=3.9.24",
+                "PYTHON_SHA256=668391afabd5083faafa4543753d190f82f33ce6ba22d6e9ac728b43644b278a"
+            ],
+            "Cmd": [
+                "uvicorn",
+                "main:app",
+                "--host",
+                "0.0.0.0",
+                "--reload"
+            ],
+            "Image": "appcompleta-web",
+            "Volumes": null,
+            "WorkingDir": "/app",
+            "Entrypoint": null,
+            "OnBuild": null,
+            "Labels": {
+                "com.docker.compose.config-hash": "8109965585c0ef512aebb4510b6bce79621b195873be38541d7bec467c23ada2",
+                "com.docker.compose.container-number": "1",
+                "com.docker.compose.depends_on": "",
+                "com.docker.compose.oneoff": "False",
+                "com.docker.compose.project": "appcompleta",
+                "com.docker.compose.project.config_files": "/workspaces/AulasCN/appcompleta/docker-compose.yml",
+                "com.docker.compose.project.working_dir": "/workspaces/AulasCN/appcompleta",
+                "com.docker.compose.service": "web",
+                "com.docker.compose.version": "2.38.2"
+            }
+        },
+        "NetworkSettings": {
+            "Bridge": "",
+            "SandboxID": "5db65832493665cf4b28d8288d6a8ea424ab75a752881a25a6b36d6634571b02",
+            "SandboxKey": "/var/run/docker/netns/5db658324936",
+            "Ports": {
+                "8000/tcp": [
+                    {
+                        "HostIp": "0.0.0.0",
+                        "HostPort": "8000"
+                    },
+                    {
+                        "HostIp": "::",
+                        "HostPort": "8000"
+                    }
+                ]
+            },
+            "HairpinMode": false,
+            "LinkLocalIPv6Address": "",
+            "LinkLocalIPv6PrefixLen": 0,
+            "SecondaryIPAddresses": null,
+            "SecondaryIPv6Addresses": null,
+            "EndpointID": "",
+            "Gateway": "",
+            "GlobalIPv6Address": "",
+            "GlobalIPv6PrefixLen": 0,
+            "IPAddress": "",
+            "IPPrefixLen": 0,
+            "IPv6Gateway": "",
+            "MacAddress": "",
+            "Networks": {
+                "appcompleta_rede_privada": {
+                    "IPAMConfig": null,
+                    "Links": null,
+                    "Aliases": [
+                        "appcompleta-web-1",
+                        "web"
+                    ],
+                    "MacAddress": "ae:58:05:71:c0:2e",
+                    "DriverOpts": null,
+                    "GwPriority": 0,
+                    "NetworkID": "6b11b869a74fa94ec9350ef2400db6f584485c58e8c331237c145202afaf1d42",
+                    "EndpointID": "cf5ff6464d9fedee26ff934b6b4247c555ca8df819c845c2845fa90088f7c37e",
+                    "Gateway": "172.18.0.1",
+                    "IPAddress": "172.18.0.3",
+                    "IPPrefixLen": 16,
+                    "IPv6Gateway": "",
+                    "GlobalIPv6Address": "",
+                    "GlobalIPv6PrefixLen": 0,
+                    "DNSNames": [
+                        "appcompleta-web-1",
+                        "web",
+                        "ff862c321fb7"
+                    ]
+                }
+            }
+        }
+    }
+]

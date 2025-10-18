@@ -1,0 +1,16 @@
+[
+    {
+        "CreatedAt": "2025-10-18T16:33:46Z",
+        "Driver": "local",
+        "Labels": {
+            "com.docker.compose.config-hash": "ebec3be1cc2c5a702ab554c5772edce60e0f62fd58e737448c522dc094bfc8bf",
+            "com.docker.compose.project": "appcompleta",
+            "com.docker.compose.version": "2.38.2",
+            "com.docker.compose.volume": "db_data"
+        },
+        "Mountpoint": "/var/lib/docker/volumes/appcompleta_db_data/_data",
+        "Name": "appcompleta_db_data",
+        "Options": null,
+        "Scope": "local"
+    }
+]
